@@ -1,0 +1,2 @@
+const palabrasOrdenar  = ['computadora', 'html'];
+
