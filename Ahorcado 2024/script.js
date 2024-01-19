@@ -25,7 +25,25 @@ function cuerpo(){
     ctx.stroke();
 }
 
+function brazo1(){
+    var c = document.getElementById("panel");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(230, 300);
+    ctx.lineTo(300, 400);
+    ctx.stroke();
+}
+
+function brazo2(){
+    var c = document.getElementById("panel");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(380, 300);
+    ctx.lineTo(300, 400);
+    ctx.stroke();
+}
+
 
 linea1();
 cabeza();
 cuerpo();   
+brazo1();
+brazo2();
